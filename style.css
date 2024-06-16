@@ -16,7 +16,7 @@ body {
   position: relative;
   box-sizing: border-box;
   transition: 300ms;
-  overflow: hidden;
+  overflow-x: scroll;
 }
 
 .navsContainer {
@@ -25,7 +25,6 @@ body {
   background-color: rgba(19, 22, 22, 0.493);
   backdrop-filter: blur(5px);
   box-shadow: 0 -5px 10px rgb(0, 0, 0);
-  
   z-index: 4;
   top: 0;
   left: 0;
@@ -34,7 +33,7 @@ body {
 .main {
   position: relative;
   top: 0;
-  right: 400vw;
+  right: -400vw;
   display: flex;
   flex-direction: row;
   color: rgb(255, 228, 178);
